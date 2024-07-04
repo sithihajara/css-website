@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo h1 {
+    color: #00ffff;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a.active {
+    color: #ff0000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.search-bar button, .search-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.login {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+button.signup {
+    background-color: #00ff00;
+    color: #fff;
+}
+
+/* Products Page */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product h3 {
+    color: #411573;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #cc9494;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
